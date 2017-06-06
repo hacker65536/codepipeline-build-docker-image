@@ -6,6 +6,8 @@ data "aws_iam_policy_document" "ecr" {
       "ecr:CompleteLayerUpload",
       "ecr:BatchCheckLayerAvailability",
       "ecr:PutImage",
+      "ecr:GetDownloadUrlForLayer",
+      "ecr:BatchGetImage",
     ]
 
     principals {
