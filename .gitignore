@@ -1,0 +1,6 @@
+*.swp
+*_override.tf
+terraform.tfstate
+terraform.tfstate.d
+terraform.tfstate.backup
+.terraform
